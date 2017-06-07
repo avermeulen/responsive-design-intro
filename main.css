@@ -1,0 +1,37 @@
+html {
+    font-family: Arial;
+}
+
+.container{
+    margin: 0.5em;
+
+}
+
+.shoe {
+    background-color: orange;
+    width : 100%;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+
+.shoe .description {
+    font-style: italic;
+}
+
+.shoe .price {
+    font-weight: bold;
+    text-align: right;
+}
+
+
+
+@media only screen and (min-width : 768px ) {
+
+    .shoe {
+        float : left;
+        width: 30%;
+        margin: 1em;
+    }
+
+}
